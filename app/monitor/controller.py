@@ -33,7 +33,7 @@ def __str_to_bool(s):
     return s not in ['false', 'f', 'n', '0', '']
 
 
-@monitor.route('/echo')
+@monitor.route('/hello')
 def hello_world():
     logging.debug(current_app.config['DEBUG'])
     return 'Hello World!'
