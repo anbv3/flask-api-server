@@ -1,6 +1,6 @@
 # flask-api-server
 
-The simple python api server base on flask
+The simple template project for api server based on flask
 
 
 ### Run
