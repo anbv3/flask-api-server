@@ -1,0 +1,8 @@
+flask
+numpy
+requests
+tornado
+sklearn
+tensorflow
+keras
+pandas
