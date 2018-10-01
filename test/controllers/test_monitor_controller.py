@@ -24,7 +24,7 @@ class TestMonitorController(TestCase):
         logging.debug(rv.status_code)
         logging.debug(rv.data)
 
-    def test_is_alive(self):
+    def test_hello(self):
         logging.debug("test alive")
         rv = self.client.get("/monitor/hello")
         logging.debug(rv.status_code)
