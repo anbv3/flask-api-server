@@ -11,7 +11,7 @@ logging.info("BASE_DIR: %s", BASE_DIR)
 app = Flask(__name__)
 app.config.from_pyfile(get_app_config())
 
-app.register_blueprint(monitor, url_prefix='/controllers')
+app.register_blueprint(monitor, url_prefix='/monitor')
 
 if __name__ == '__main__':
     app.run()

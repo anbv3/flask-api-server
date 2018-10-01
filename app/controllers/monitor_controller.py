@@ -4,7 +4,7 @@ from flask import Blueprint, request, current_app
 
 from app.common import global_share
 
-monitor = Blueprint('controllers', __name__)
+monitor = Blueprint('monitor', __name__)
 
 
 @monitor.after_request
